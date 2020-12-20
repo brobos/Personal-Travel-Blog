@@ -1,0 +1,14 @@
+/* footer elements */
+footer {
+    grid-area: 4 / 1 / 5 / 5;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #533a23;
+    color: #fff;
+    padding: 3em;
+}
+
+.copy {
+    margin-right: 25%;
+}
