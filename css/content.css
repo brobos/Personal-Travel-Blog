@@ -3,13 +3,19 @@ main {
     grid-area: 3 / 2 / 4 / 5;
     padding: 3em;
     color: #3d3d3d;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
 }
 
 main h2,
 main h3,
 .artcl-src {
     width: 100%;
-    padding: 10px 0;
+    margin-bottom: 1%;
+}
+
+.main-h {
+    margin-left: 3%;
 }
 
 article {
@@ -48,6 +54,7 @@ aside {
 .artcl-src a, 
 .img-src a  {
     color: #3d3d3d;
+    text-decoration: none;
 }
 
 .useful a:hover {
@@ -102,6 +109,10 @@ aside {
     transition: all .4s ease;
 }
 
+blockquote {
+    margin-bottom: 10px;
+}
+
 .more {
     border: 1px solid #2f3335;
     background: none;
@@ -113,6 +124,7 @@ aside {
     text-align: center;
     cursor: pointer;
     font-size: 18px;
+    text-decoration: none;
 }
   
 .more:hover {
